@@ -1,4 +1,4 @@
-let timer = 15;
+let timer = 60;
 let score = 0;
 let randNumber;
 
