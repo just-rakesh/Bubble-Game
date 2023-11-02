@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(95, 155, 220);
+}
+.panel {
+  height: 80%;
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.ptop {
+  width: 100%;
+  height: 80px;
+  padding: 10px 22%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(34, 78, 125);
+}
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.elem h2 {
+  font-weight: 700;
+}
+.box {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(36, 70, 105);
+  font-weight: bolder;
+}
+
+.pbtm {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: calc(100% - 80px);
+}
+
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: rgb(41, 178, 185);
+  color: white;
+}
+.bubble:hover {
+  cursor: pointer;
+  background-color: rgb(18, 217, 197);
+}
+.playAgainBtn {
+  background-color: rgb(27, 147, 199);
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.playAgainBtn:active {
+  background-color: #0056b3;
+}
+.startBtn {
+  background-color: rgb(27, 147, 199);
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.startBtn:active {
+  background-color: #0056b3;
+}
+
+.preparedBy {
+  font-size: 22px;
+  position: absolute;
+  top: 93%;
+  right: 20px;
+  font-weight: bold;
+}
+.gameTag {
+  font-size: 25px;
+  position: absolute;
+  bottom: 92.5%;
+  left: 45%;
+  font-weight: bold;
+}
